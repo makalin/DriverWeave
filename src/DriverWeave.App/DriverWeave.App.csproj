@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DriverWeave.Core\DriverWeave.Core.csproj" />
+    <ProjectReference Include="..\DriverWeave.Discovery\DriverWeave.Discovery.csproj" />
+    <ProjectReference Include="..\DriverWeave.Update\DriverWeave.Update.csproj" />
+    <ProjectReference Include="..\DriverWeave.Install\DriverWeave.Install.csproj" />
+  </ItemGroup>
+</Project>
